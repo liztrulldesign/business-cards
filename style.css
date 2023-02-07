@@ -2,27 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
     }
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-color: #6A8EAE;
+    background-image: url('assets/repeated-bg.svg');
 }
 /* the main container */
 
 .front-side,
 .back-side {
-  width: 254px;
-  height: 441px;
+  width: 441px;
+  height: 254px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  background-color:rgb(155, 155, 155);
 }
 
 /* .front-side{
