@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 1;
     box-sizing: border-box;
     /* border: 2px solid blue; */
 
@@ -9,20 +9,20 @@
 
 body {
     background-color: #6A8EAE;
-    background-image: url('assets/repeated-bg.svg');
+    background-image: url('assets/BG.svg');
 }
 /* the main container */
 
 .front-side,
 .back-side {
-  width: 441px;
-  height: 254px;
+  width: 275px;
+  height: 150px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:rgb(155, 155, 155);
+  background-color:rgb(26, 130, 183);
 }
 
 /* .front-side{
@@ -44,7 +44,8 @@ body {
 }
 
 .icon-container{
-
+  position: absolute;
+  top: 10px;
   width:80%;
   margin: 0 auto;
   display:grid;
@@ -54,6 +55,15 @@ body {
   "a b c";
   grid-gap: 10px;
 }
+
+
+.text-container {
+  position: absolute;
+  top: 100px;
+  left: 75;
+}
+
+
 
 /* .circle{
   background-image: url("/assets/circle.svg");
@@ -76,7 +86,7 @@ h5{
 .st1{display:inline;}
 
 svg{
-  fill:purple;
+  fill: #E6E7E8;
 }
 
 #icon-fill{
@@ -86,7 +96,7 @@ svg{
 
 
 .svg-interaction:hover{
-  fill:rgb(118, 27, 237);
+  fill:#1E75BC;
   opacity: 0.5;
   animation:pulse; 
   animation-duration: 2s;
