@@ -17,14 +17,17 @@ body {
 .back-side {
   width: 275px;
   height: 150px;
+  top: 40px;
   position: relative;
   /* adjust this to space out the cards */
-  margin: 20px auto;
+  margin: 30px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color:rgb(26, 130, 183);
 }
 
+
+					
 /* .front-side{
 } */
 
@@ -43,24 +46,33 @@ body {
 
 }
 
+.name-container{
+  width: 80%;
+  margin: 30px;
+  position: absolute;
+  z-index: 20;
+
+}
+
 .icon-container{
   position: absolute;
-  top: 10px;
-  width:80%;
+  left: 60px;
+  top: 115px;
+  width:50%;
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "a b c";
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
 
 
 .text-container {
   position: absolute;
-  top: 100px;
-  left: 75;
+  top: 55px;
+  left: 55px;
 }
 
 
@@ -71,14 +83,19 @@ body {
 } */
 
 
-/* h3{
+h3{
+  font-family: 'Gantari', sans-serif;
+  color: #E6E7E8;
   margin-bottom: 0px;
 }
 
 h5{
-  margin-top: 0px;
+  font-family: 'Gantari', sans-serif;
+  font-weight: 200;
+  color: #E6E7E8;
+  margin-top: 10px;
   padding-top: 0px;
-} */
+} 
 
 
 /* svg styling */
