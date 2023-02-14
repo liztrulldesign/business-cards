@@ -47,18 +47,22 @@ body {
 }
 
  .grid-container {
-  margin-top: 105px;
-  display: grid;
-  grid-template-columns: 40px 90px 40px 90px;
-  
+  margin-top: 116px;
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr 1fr;
+    grid-template-rows: .25fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
 
- }
+ 
 
 .instagram{
-  width: 30px;
+  width: 20px;
 }
 .email{
-  width: 30px;
+  top: 100px;
+  width: 20px;
 }
 h3{
   font-family: 'Gantari', sans-serif;
