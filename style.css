@@ -23,8 +23,8 @@
 
 
 body {
-    background-color: #ffffff;
-    background-image: url('assets/bg.svg');
+    /* background-color: #ffffff; */
+    background-image: url(assets/bg.svg)
 }
 /* the main container */
 
@@ -71,6 +71,7 @@ a{
     grid-template-rows: .25fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    z-index: 20;
     }
 
  
@@ -81,7 +82,7 @@ a{
 }
 .email{
   position: relative;
-  top: -10px;
+  
   width: 40px;
   z-index: 10;
 }
