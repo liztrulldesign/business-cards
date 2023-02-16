@@ -7,9 +7,24 @@
     }
 
 
+
+    
+/* responsive grid for mobile */
+    @media screen and (max-width: 1200px) {
+      body{
+       transform-origin: top;
+       transform: scale(1.5);
+       margin:0 auto;
+      }
+     
+       }
+
+
+
+
 body {
-    background-color: #6a7d97;
-    background-image: url('assets/BG.svg');
+    background-color: #ffffff;
+    background-image: url('assets/bg.svg');
 }
 /* the main container */
 
@@ -29,8 +44,9 @@ body {
 /* .front-side{
 } */
 
-
-
+a{
+  text-decoration: none;
+}
 .name-container{
   width: 80%;
   margin: 50px;
@@ -67,6 +83,7 @@ body {
   position: relative;
   top:-12px;
   width: 40px;
+  z-index: 10;
 }
 
 h3{
@@ -139,6 +156,7 @@ h6{
   color: #E6E7E8;
   margin-top: 10px;
   padding-top: 0px;
+  z-index: 10;
   
 } 
 
