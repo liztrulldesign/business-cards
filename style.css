@@ -10,7 +10,7 @@
 
 
 /* responsive grid for mobile */
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1000px) {
       body{
        transform-origin: top;
        transform: scale(.5);
@@ -81,7 +81,7 @@ a{
 }
 .email{
   position: relative;
-  top:-12px;
+  top: 0px;
   width: 40px;
   z-index: 10;
 }
@@ -109,7 +109,7 @@ h5::before {
   position:absolute;
   top: 180; right: 285; bottom: 28; left: 11;
   inset: 100 100 0 0;
-  background: rgb(5, 136, 201);
+  background: rgb(19, 142, 204);
   z-index: 0;
   transition: transform .3s ease;
 }
@@ -139,6 +139,7 @@ h6:hover::before {
 
 h6::before {
   content: "";
+  
   display: block;
   position:absolute;
   top: 180; right: 15; bottom: 28; left: 190;
