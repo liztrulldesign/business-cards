@@ -86,7 +86,7 @@ a{
 }
 .email{
   position: relative;
-  
+  top: -18;
   width: 40px;
   z-index: 10;
 }
